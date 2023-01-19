@@ -2,10 +2,9 @@ package main
 
 import "fmt"
 
-func Adder(a, b int) (res int) {
+func Adder(a, b int) int {
 
-	res = a + b
-	return
+	return a + b
 }
 
 func main() {
