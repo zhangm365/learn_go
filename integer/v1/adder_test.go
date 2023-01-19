@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestAdder(t *testing.T) {
 	sum := Adder(2, 2)
