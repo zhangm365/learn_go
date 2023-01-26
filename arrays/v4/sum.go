@@ -11,7 +11,7 @@ func Sum(nums []int) int {
 func SumAll(numbersToSum ...[]int) (sums []int) {
 
 	lens := len(numbersToSum)
-	sums = make([]int, lens)
+	sums = make([]int, lens) // 创建切片的时候指定容量
 
 	for i, nums := range numbersToSum {
 		sums[i] = Sum(nums)
