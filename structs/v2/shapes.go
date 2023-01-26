@@ -1,6 +1,6 @@
 package main
 
-// 长方形的数据类型
+// 定义结构体：长方形（宽和高）
 type Rectangle struct {
 	width  float64
 	height float64

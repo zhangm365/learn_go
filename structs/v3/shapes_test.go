@@ -19,7 +19,7 @@ func TestArea(t *testing.T) {
 	t.Run("circles", func(t *testing.T) {
 
 		circle := Circle{10}
-		got := Area(circle)
+		got := Area(circle) // cannot use circle (variable of type Circle) as type Rectangle in argument to Area
 		want := 314.16
 
 		if got != want {
