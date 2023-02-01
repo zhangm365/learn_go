@@ -25,7 +25,6 @@ func TestSearch(t *testing.T) {
 // 在字典中添加一对 [key, value]
 func TestAdd(t *testing.T) {
 	dic := Dic{}
-
 	word := "key1"
 	value := "value1"
 	dic.Add(word, value)
