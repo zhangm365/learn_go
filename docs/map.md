@@ -16,13 +16,13 @@
 map[KeyType]EleType
 
 
-// 定义一个 nil 的 map，会得到一个 nil 指针异常
+// 1. 定义一个 nil 的 map，会得到一个 nil 指针异常
 var m map[Type]Type
 
 // panic: assignment to entry in nil map
 m[key] = value
 
-// 正确的方法
+// 2. 正确的方法
 
 m := map[Type]Type{}
 // OR 
