@@ -8,7 +8,7 @@ import (
 func TestWalk(t *testing.T) {
 	expected := "Chris"
 
-	// 测试样例
+	// 测试样例表
 	cases := []struct {
 		Name          string
 		Input         interface{}
@@ -35,7 +35,7 @@ func TestWalk(t *testing.T) {
 			"Struct with non string fields",
 			struct {
 				Name string
-				Age  int
+				Age  int // non string field
 			}{"Chris", 33},
 			[]string{"Chris"},
 		},
